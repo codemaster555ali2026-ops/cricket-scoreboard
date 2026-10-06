@@ -1,0 +1,36 @@
+name: cricket_scoreboard_15phases
+description: "Cricket Scoreboard App - 15 Phases: Complete Data, Smart Features, Professional Experience"
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  fl_chart: ^0.68.0
+  pdf: ^3.10.8
+  printing: ^5.12.0
+  share_plus: ^9.0.0
+  google_mobile_ads: ^5.1.0
+  intl: ^0.19.0
+  google_fonts: ^6.2.1
+  uuid: ^4.4.0
+  confetti: ^0.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.9
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/sounds/
