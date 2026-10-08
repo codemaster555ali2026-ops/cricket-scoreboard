@@ -23,6 +23,7 @@ jobs:
           cache: true
       - run: flutter clean  
       - run: flutter pub get
+      _ run:flutter create . --platforms=android
       - run: flutter build apk --release --no-tree-shake-icons
       - uses: actions/upload-artifact@v4
         with:
